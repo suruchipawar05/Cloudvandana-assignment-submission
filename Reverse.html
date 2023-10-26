@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script> 
+   
+      const  arr=" we Love Programming";
+    let  arr1=arr.split(" ");
+    var rev=new Array();
+    
+   
+   for(var i=0;i<arr1.length;i++)
+    {          
+            var char=arr1[i];
+            var str=" ";
+            for(let j=char.length;j>=0;j--)
+            {
+                var  ch=char.charAt(j);
+            str += ch ;
+            rev[i]=str;
+            } 
+
+    }
+    for(var i=0;i<=rev.length;i++)
+    {
+        document.write(rev[i]+"  ");  
+    }
+
+    
+     
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+    <span id="result">
+
+    </span>
+</body>
+</html>
